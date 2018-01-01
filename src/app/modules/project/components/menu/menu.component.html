@@ -1,0 +1,26 @@
+<nav class="navbar">
+  <div class="navbar-brand hero is-info">
+    <div class="navbar-burger burger" data-target="pnlMenu" (click)="showMeun()" [ngClass]="{'is-active': isMenuOpened}">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="pnlMenu" class="navbar-menu" [ngClass]="{'is-active': isMenuOpened}">
+    <div class="navbar-start is-marginless">
+      <aside class="menu notification is-radiusless">
+        <p class="menu-label" translate>PROJECT.CATELOG</p>
+        <ul class="menu-list">
+          <li><a (click)="catelogFilter('')" translate>PROJECT.ALL</a></li>
+          <li *ngFor="let catelog of catelogs"><a (click)="catelogFilter(catelog)">{{ catelog }}</a></li>
+        </ul>
+        
+        <p class="menu-label" translate>PROJECT.TAG</p>
+        <ul class="menu-list">
+          <li *ngFor="let tag of tags"><a (click)="tagFilter(tag)">{{ tag }}</a></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</nav>

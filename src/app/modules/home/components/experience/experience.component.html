@@ -1,0 +1,31 @@
+<div class="notification">
+  <h2 class="title" translate>ABOUT.EXPERIENCE</h2>
+  <div class="timeline">
+    <div *ngFor="let experience of experiences; let i = index">
+      <header class="timeline-header">
+        <span class="tag is-info">{{ experience.from }}</span>
+      </header>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <a (click)="showExperience(i)">{{ experience.title }} @ {{ experience.company }}</a>
+        </div>
+      </div>
+      <header class="timeline-header" *ngIf="i==experiences.length - 1">
+        <span class="tag is-info">{{ experience.end }}</span>
+      </header>
+    </div>
+  </div>
+</div>
+
+<div class="quickview" [ngClass]="{'is-active': isShowExperience}">
+  <header class="quickview-header" >
+    <p class="title">{{ experience.title }}</p>
+    <span class="delete" data-dismiss="quickview" (click)="showExperience(-1)"></span>
+  </header>
+
+  <div class="quickview-body">
+    <ul>
+      <li *ngFor="let duty of experience.duties">{{ duty }}</li>
+    </ul>
+  </div>
+</div>

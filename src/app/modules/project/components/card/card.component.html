@@ -1,0 +1,28 @@
+<div class="notification is-paddingless" *ngIf="project">
+  <a routerLink="/{{language}}/project/{{id}}">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-3by2">
+          <img src="assets/img/projects/{{ project.code }}/{{project.images[0].file}}" alt="{{project.images[0].title}}">
+        </figure>
+      </div>
+      <div class="card-content">
+        <div class="content">
+          <p class="title is-5">{{ project.name }}</p>
+          <p># {{ project.catelog }}</p>
+          <div class="tags">
+            <span class="tag" *ngFor="let tag of project.tags">{{ tag }}</span>
+          </div>
+          <div class="has-text-right">
+            <a class="button is-small is-info">
+              <span class="icon is-small">
+                <i class="fa fa-book"></i>
+              </span>
+              <span translate>PROJECT.READMORE</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

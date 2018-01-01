@@ -1,0 +1,14 @@
+<div class="notification">
+  <h2 class="title" translate>PROJECT.MILESTONES</h2>
+  <div class="timeline">
+    <div *ngFor="let milestone of milestones; let i = index">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <p class="heading">{{ milestone.time }}</p>
+          <p>{{ milestone.event }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

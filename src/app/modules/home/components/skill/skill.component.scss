@@ -1,0 +1,21 @@
+.notification a:not(.button){
+    text-decoration: none; 
+}
+.pnl-tab{
+    ul{
+        li{
+            cursor: pointer;
+            padding-bottom: 0.5rem;
+            padding-top: 0.5rem;
+            padding-left: 0.5rem;
+            border-right: 2px solid #dbdbdb;
+        }
+        li.is-active{
+            border-right: 2px solid hsl(204, 86%, 53%);
+            background-color: hsla(204, 86%, 53%, 0.2);
+        }
+    }
+}
+progress{
+    margin-bottom: 0.5rem;
+}

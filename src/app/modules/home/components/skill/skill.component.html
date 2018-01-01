@@ -1,0 +1,30 @@
+<div class="notification">
+  <h2 class="title" translate>ABOUT.SKILL</h2>
+  <div class="columns">
+    <div class="column is-3">
+      <div class="pnl-tab">
+        <ul>
+          <li *ngFor="let skill of skills; let i = index" [ngClass]="{'is-active':(i == active_index)}" (click)="swichTab(i)">
+            <a>
+              <span class="icon is-small"><i class="fa fa-bookmark"></i></span>
+              <span>{{ skill.catelog }}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="column is-9">
+      <div class="pnl-tab-content">
+        <div *ngFor="let skill of skills; let i = index" [ngClass]="{'is-hidden':(i != active_index)}">
+          <p *ngFor="let item of skill.items">
+            <span>{{ item.name }}</span>
+            <progress class="progress is-info" value="{{ item.level }}" max="100">{{ item.level }}%</progress>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  
+</div>

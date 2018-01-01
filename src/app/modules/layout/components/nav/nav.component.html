@@ -1,0 +1,38 @@
+<nav class="navbar is-link">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="/{{ language }}">
+      <img src="assets/img/logo.png" >
+    </a>
+    <div class="navbar-burger burger" data-target="pnlNavbar" (click)="showMeun()" [ngClass]="{'is-active': isMenuOpened}">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="pnlNavbar" class="navbar-menu" [ngClass]="{'is-active': isMenuOpened}">
+    <div class="navbar-start">
+      <a class="navbar-item" routerLink="/{{ language }}/about" translate>NAV.ABOUT</a>
+      <a class="navbar-item" routerLink="/{{ language }}/project" translate>NAV.PROJECT</a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field">
+          <div class="control has-icons-left">
+            <div class="select">
+              <select (change)="changeLanguage($event.target.value)" [value]="language">
+                <option *ngFor="let lang of languages" value="{{ lang.key }}">
+                  {{ lang.value }}
+                </option>
+              </select>
+            </div>
+            <div class="icon is-small is-left">
+              <i class="fa fa-globe"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

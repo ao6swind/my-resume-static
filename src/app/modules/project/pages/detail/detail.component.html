@@ -1,0 +1,16 @@
+<div [@fadeInAnimation]>
+    <app-nav></app-nav>
+    <div class="notification is-radiusless is-marginless">
+        <div class="columns">
+            <div class="column">
+                <app-description [project]="project" [description]="description"></app-description>
+                <app-milestone [milestones]="project.milestones" *ngIf="project.milestones.length > 0"></app-milestone>
+            </div>
+            <div class="column">
+                <app-slideshow [code]="project.code" [images]="project.images" *ngIf="project.images.length > 1"></app-slideshow>
+                <app-plugin [plugins]="project.plugins" *ngIf="project.plugins.length > 0"></app-plugin>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

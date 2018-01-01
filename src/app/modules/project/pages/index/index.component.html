@@ -1,0 +1,25 @@
+<div [@fadeInAnimation]>
+    <app-nav></app-nav>
+    <div class="hero is-light">
+        <div class="columns is-marginless is-paddingless">
+            <div class="column is-marginless is-paddingless is-2 pnl-menu">
+                <app-menu [catelogs]="catelogs" [tags]="tags" 
+                    (onCatelogFilterEvent)="onCatelogFilter($event)"
+                    (onTagFilterEvent)="onTagFilter($event)"></app-menu>
+            </div>
+            <div class="column is-marginless is-paddingless is-10">
+                <div class="notification">
+                    <div class="columns" *ngFor="let row of rows; let i = index">
+                        <div class="column" *ngFor="let column of columns; let j = index">
+                            <app-card *ngIf="projects[(i*3)+j]"
+                                [project]="projects[(i*3)+j]" 
+                                [language]="language" 
+                                [id]="projects[(i*3)+j].id" ></app-card>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

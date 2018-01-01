@@ -1,0 +1,23 @@
+.notification a:not(.button){
+    text-decoration: none; 
+}
+.navbar-start{
+    padding-left: 0;
+    padding-right: 0;
+    width:100%;
+}
+.navbar-menu{
+    padding: 0;
+}
+.menu{
+    background-color:hsl(204, 86%, 53%);
+    color:white;
+    width:100%;
+}
+.menu-label{
+    color:white;
+}
+.menu-list a:hover{
+    background-color: hsl(204, 100%, 77%);
+    color:#4A4A4A;
+}
