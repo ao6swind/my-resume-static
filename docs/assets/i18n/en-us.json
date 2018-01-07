@@ -1,0 +1,34 @@
+{
+    "NAV": {
+        "ABOUT": "About",
+        "PROJECT": "Project"
+    },
+    "ABOUT": {
+        "INTRODUCTION":{
+            "TITLE": "Introduction",
+            "BIRTHDAY": "Birthday",
+            "EDUCATION": "Education",
+            "EMAIL": "E-mail",
+            "RESUME": { 
+                "LABEL": "Resume",
+                "FILE": "resume_en.pdf"
+            }
+        },
+        "EDUCATION": "Education",
+        "EXPERIENCE": "Experience",
+        "SKILL": "Skill",
+        "CERTIFICATION": "Certification",
+        "PROFILE": "Profile"
+    },
+    "PROJECT": {
+        "ALL": "All Projects",
+        "CATELOG": "Catelog",
+        "TAG": "Tag",
+        "READMORE": "Detail",
+        "URL": "Url",
+        "DESCRIPTION": "Description",
+        "SCREEN": "Screen",
+        "PLUGIN": "Plugin",
+        "MILESTONES": "Milestones"
+    }
+}
