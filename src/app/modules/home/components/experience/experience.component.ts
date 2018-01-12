@@ -49,6 +49,7 @@ export class ExperienceComponent implements OnInit, OnDestroy {
     {
       this.experience = {
         "company": "",
+        "url": "",
         "title": "",
         "from": "",
         "end": "",

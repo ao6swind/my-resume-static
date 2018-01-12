@@ -24,6 +24,8 @@
   </header>
 
   <div class="quickview-body">
+    <p><a href="{{ experience.url }}" target="_blank">{{ experience.company }}</a></p>
+    <br>
     <ul>
       <li *ngFor="let duty of experience.duties">{{ duty }}</li>
     </ul>
