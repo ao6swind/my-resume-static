@@ -1,1 +1,1 @@
-　　進修推廣學院承辦了許多政府單位的語言考試，在命題作業方面由於沒有制式的規範，使得許多命題委員交付的檔案格式與內容不一，造成本院承辦人後續要逐一修正，因此建立了一套命題系統，讓命題委員設計出來的題目格式統一，方面日後題庫修審作業。
+We implement a lot of language exam. In the beginin, we have no specification at question setting process. This reason results in my co-workders need to spend time for view. This system limit user to input be formated question

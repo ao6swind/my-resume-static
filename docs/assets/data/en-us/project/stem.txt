@@ -1,4 +1,4 @@
-﻿　　此專案開始期間我正在服教育替代役，在學校內負責處理交通指揮、校安巡查與庶務處理。某日學姊聯絡我說系上林坤誼教授的計畫有系統需求，問我能不能幫忙處理，當下也沒有考慮太多就答應並約時間跟老師碰面做進一步的訪談。
-　　訪談完以後得知此案目標為發展生活科技數位教材，並實施前後測，分析受測者使用教材後在問題解決能力方面是否有得到顯著差異，為此計畫主持人將邀約系上師生共同研發八套以故事情境帶領學生合作問題解決能力的學習單元，以Web平台呈現並進行施測。在此之前老師已有請博士班學長嘗試研發兩套，但因開發完的這兩套技術不一致（Javascript、Flash），除了不易整合外，美術設計上也有不一致的情況發生，故開始研發新系統，並將腳本移植到新系統上。
-　　為了使學生更樂於使用此系統練習，在設計上我參考了各種類似雨港基隆的對話遊戲，使用日本網站找到的立繪產生器製作出各種人物，依據不同的情境讓人物有表情變化，讓學生感覺在跟角色互動、共同解決一個難題。同時也使用了HTML5的拖放API將原本的選擇題做成連連看的形式，讓題目變得更有趣味性。
-　　因為腳本是由我根據教材設計者所提交的文件改成JSON檔讓系統運作，所以中途有一個深刻的體悟，就是這類的系統應該都要配合一套完善的後台，讓使用者可以輕鬆的上架、預覽結果，這也成為了我日後設計系統時所思考的重點之一。真的非常感謝老師們、學姊、學弟妹們讓我有這一次的機會參與這份專案，深感獲益良多。
+﻿This project started when I fulfill alternative military service of education. During that time, my duties is directing traffic, campus patrol and general affairs processing. One day, a upperclassmen in NTNU told me that Dr. Lin had a project which need building a system. She asked me that did I have free time for developing this system.
+After system requirements interview, I knew the goal was designing eight session about digital living technology textbook and using this textbook to make pre-test and post-test for finding any difference between test group(using the digital textbook) and control group.
+I tried to make this textbook has more interesting, so I refered some games like "Rainy Port Keelung". First, I created a lot of character images by generater. According to the different script, these characters will change they face expression. In addition, I implement multiple choice question by using HTML5 drag/grop api in order to make exercise be fun.
+I translated these scripts to JSON formate, this process let me learned that importance of back-end. Thanks for Dr. Lin & other friends gave me this opportunity 
