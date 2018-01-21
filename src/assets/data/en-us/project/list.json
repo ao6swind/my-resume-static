@@ -179,7 +179,7 @@
         "tags": [ "WPF", "C#", "Socket" ],
         "plugins": ["Ribbon", "Json.Net", "Ftp.Net", "Osinfo", "Naudio", "VS2017 Installer Extension"],
         "milestones":[
-            { "time": "2016-09", "event": "project started with pper factory system" },
+            { "time": "2016-09", "event": "project started with paper factory system" },
             { "time": "2016-10", "event": "beta release and system acceptance by preexam" },
             { "time": "2017-02", "event": "version 1 release" },
             { "time": "2017-12", "event": "modify to semi-automatic" }

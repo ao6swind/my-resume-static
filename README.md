@@ -7,4 +7,4 @@ ng build --prod --base-href "/my-resume/" -d "/my-resume/"
 行號：51 $tablet: 960px + (2 * $gap) !default  
 行號：53 $desktop: 960px + (2 * $gap) !default  
   
-[點此觀看](https://ao6swind.github.io/my-resume)  
+[點此觀看我的履歷](https://ao6swind.github.io/my-resume)  

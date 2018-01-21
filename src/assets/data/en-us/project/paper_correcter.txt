@@ -1,2 +1,1 @@
-　　考生作答反應回收後將整卷至閱卷系統。閱卷系統主要供閱卷會議主持人與閱卷委員完成口語測驗與書寫測驗的評分，每一張試卷基本上均須完成兩次評分，若兩次評分結果差異太大，則須由第三人完成第三次評分。
-　　此次閱卷系統最大的修正有幾點。一、在試評閱階段閱卷委員可在書寫卷上劃記，供討論時使用（canvas）。二、評分花費時間統計。三、以小題為單位派卷評分。
+After examing, all answers will be imported to this system. There are two system roles, one is meeting host and another is scoring specialist. Their mission is scoring all speaking answers and writing answers. Each answer has to be reviewed twice. If there is a huge gap between first reviewing and secorned reviewing, we need to do third reviewing by another specialist. This system has a lot of useful function like making some mark on answer paper, counting spended seconds of reviewing, analyzing all report in the smallest dimension(In ths case, the smallest dimension is question).
