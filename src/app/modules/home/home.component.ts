@@ -2,13 +2,13 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { TranslateService } from '@ngx-translate/core';
-import { fadeInAnimation } from './../../animations/fade.animation';
+import { fadeAnimation } from './../../animations/fade.animation';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  animations: [ fadeInAnimation ]
+  animations: [ fadeAnimation ]
 })
 export class HomeComponent implements OnInit, OnDestroy {
 

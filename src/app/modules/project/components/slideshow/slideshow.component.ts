@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
+import { Carousel } from './../../../../plugin/carousel';
 @Component({
   selector: 'app-slideshow',
   templateUrl: './slideshow.component.html',
@@ -16,6 +16,11 @@ export class SlideshowComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
+    let carousels = document.querySelectorAll('.carousel, .hero-carousel');
+    if (carousels) {
+      for(let i = 0; i <= carousels.length - 1; i++){
+        new Carousel(carousels[i]);
+      }
+    }
   }
 }

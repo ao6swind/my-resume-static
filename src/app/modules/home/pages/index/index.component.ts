@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { fadeInAnimation } from './../../../../animations/fade.animation';
+import { fadeAnimation } from './../../../../animations/fade.animation';
 
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.scss'],
-  animations: [ fadeInAnimation ]
+  animations: [ fadeAnimation ]
 })
 export class IndexComponent implements OnInit {
 

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { fadeInAnimation } from './../../../../animations/fade.animation';
+import { fadeAnimation } from './../../../../animations/fade.animation';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss'],
-  animations: [ fadeInAnimation ]
+  animations: [ fadeAnimation ]
 })
 export class AboutComponent implements OnInit {
 

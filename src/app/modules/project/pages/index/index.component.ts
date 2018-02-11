@@ -2,13 +2,13 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { DataService } from '../../../../services/data.service';
-import { fadeInAnimation } from './../../../../animations/fade.animation';
+import { fadeAnimation } from './../../../../animations/fade.animation';
 
 @Component({
   selector: 'app-index',
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.scss'],
-  animations: [ fadeInAnimation ]
+  animations: [ fadeAnimation ]
 })
 export class IndexComponent implements OnInit, OnDestroy {
 
@@ -63,7 +63,7 @@ export class IndexComponent implements OnInit, OnDestroy {
     this.rows = [1];
     for(let i = 0; i <= this.projects.length - 1; i++){
       // 整理grid
-      if((i+1)%3 == 0)
+      if((i+1)%3 == 0 || i == 0)
         this.rows.push(i);
     }
   }

@@ -2,14 +2,14 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { DataService } from '../../../../services/data.service';
-import { fadeInAnimation } from './../../../../animations/fade.animation';
+import { fadeAnimation } from './../../../../animations/fade.animation';
 import { Carousel } from './../../../../plugin/carousel';
 
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
   styleUrls: ['./detail.component.scss'],
-  animations: [ fadeInAnimation ]
+  animations: [ fadeAnimation ]
 })
 export class DetailComponent implements OnInit, OnDestroy {
 
@@ -33,12 +33,7 @@ export class DetailComponent implements OnInit, OnDestroy {
           this.project = json_result
           this.subscription_text_data = this.data.getText(paraent_params["lang"], "project/" + this.project.code).subscribe(text_result => {
             this.description = text_result.replace("\r\n", "<br>").replace("\n", "<br>").replace("\t", "　　");
-            let carousels = document.querySelectorAll('.carousel, .hero-carousel');
-            if (carousels) {
-              for(let i = 0; i <= carousels.length - 1; i++){
-                new Carousel(carousels[i]);
-              }
-            }
+            
           })
         });
       })      

@@ -18,7 +18,6 @@ import { PluginComponent } from './components/plugin/plugin.component';
 import { MilestoneComponent } from './components/milestone/milestone.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  //return new TranslateHttpLoader(http);
   return new TranslateHttpLoader(http, "assets/i18n/", ".json");
 }
 
@@ -36,7 +35,17 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  declarations: [ProjectComponent, IndexComponent, DetailComponent, MenuComponent, CardComponent, DescriptionComponent, SlideshowComponent, PluginComponent, MilestoneComponent],
+  declarations: [
+    ProjectComponent, 
+    IndexComponent, 
+    DetailComponent, 
+    MenuComponent, 
+    CardComponent, 
+    DescriptionComponent, 
+    SlideshowComponent, 
+    PluginComponent, 
+    MilestoneComponent
+  ],
   bootstrap: [ProjectComponent]
 })
 export class ProjectModule { }

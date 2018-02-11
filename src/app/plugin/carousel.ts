@@ -35,18 +35,26 @@ export class Carousel {
     }
 
     let item_count = this.items.length;
-    if (item_count) {
-      for(let i = 0; i <= this.items.length - 1; i++){
+    if (item_count) 
+    {
+      for(let i = 0; i <= this.items.length - 1; i++)
+      {
         let new_value;
-        if (this.items[i].style.order) {
+        if (this.items[i].style.order) 
+        {
           new_value = (parseInt(this.items[i].style.order, 10) + direction) % item_count;
-        } else {
+        } 
+        else 
+        {
           new_value = ((i + 2) % item_count);
         }
-        if (!new_value || new_value !== 2) {
+        if (!new_value || new_value !== 2) 
+        {
           this.items[i].style['z-index'] = '0';
           this.items[i].classList.remove('is-active');
-        } else {
+        } 
+        else 
+        {
           this.items[i].style['z-index'] = '1';
           this.items[i].classList.add('is-active');
         }

@@ -1,4 +1,4 @@
-<div [@fadeInAnimation]>
+<div [@fadeAnimation]>
     <app-nav></app-nav>
     <div class="hero is-light">
         <div class="columns is-marginless is-paddingless">
@@ -8,7 +8,7 @@
                     (onTagFilterEvent)="onTagFilter($event)"></app-menu>
             </div>
             <div class="column is-marginless is-paddingless is-10">
-                <div class="notification">
+                <div class="notification is-radiusless">
                     <div class="columns" *ngFor="let row of rows; let i = index">
                         <div class="column" *ngFor="let column of columns; let j = index">
                             <app-card *ngIf="projects[(i*3)+j]"
