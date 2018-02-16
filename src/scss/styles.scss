@@ -1,6 +1,12 @@
+@import "/bulma-modify/initial-variables";
+@import "/bulma-modify/derived-variables";
 @import "~bulma/bulma";
 @import "~bulma-extensions/extensions";
 html,body{
     background-color: hsl(217, 71%, 53%);
     font-family: Microsoft YaHei;
+    
+}
+body{
+    font-size: 1.25rem;
 }
