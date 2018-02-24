@@ -229,13 +229,45 @@
         "tags": ["Angularjs"],
         "plugins": ["bulma"],
         "milestones":[
-            { "time": "2017-09", "event": "project stared" },
-            { "time": "2017-11", "event": "beta releae" }
+            { "time": "2017-09", "event": "project started" },
+            { "time": "2017-11", "event": "beta release" },
+            { "time": "2018-02", "event": "production release" }
         ],
         "images": [
-            { "file": "building.png", "title": "content building..." },
-            { "file": "building.png", "title": "content building..." },
-            { "file": "building.png", "title": "content building..." }
+            { "file": "1.png", "title": "paper list" },
+            { "file": "2.png", "title": "playing exam rule audio" },
+            { "file": "3.png", "title": "listening test(choose an image)" },
+            { "file": "4.png", "title": "listening test(choose a text)" },
+            { "file": "5.png", "title": "listening test(question set)" },
+            { "file": "6.png", "title": "reading test(question set)" }
+        ]
+    },
+    {
+        "code": "linkou",
+        "name": "NUPS Education System",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["Laravel"],
+        "plugins": ["bootstrap", "sweetalert2"],
+        "milestones":[
+            { "time": "2017-04", "event": "got requirement" },
+            { "time": "2017-05", "event": "require interview" },
+            { "time": "2017-07", "event": "pass this project to another co-worker" },
+            { "time": "2018-01", "event": "the coworker quit, and I continue finish this project" },
+            { "time": "2018-02", "event": "production release" }
+        ],
+        "images": [
+            { "file": "a1.png", "title": "after staff setting, system could design the schedule autoly" },
+            { "file": "a2.png", "title": "enroll/drop course" },
+            { "file": "a3.png", "title": "absent record" },
+            { "file": "s1.png", "title": "schedule of student" },
+            { "file": "s2.png", "title": "leave request" },
+            { "file": "s3.png", "title": "choose course" },
+            { "file": "t1.png", "title": "teacher's free time" },
+            { "file": "t2.png", "title": "schedule of teacher" },
+            { "file": "t3.png", "title": "scoring" },
+            { "file": "t4.png", "title": "review leave request" }
         ]
     }
 ]
