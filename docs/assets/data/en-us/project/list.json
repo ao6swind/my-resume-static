@@ -224,8 +224,8 @@
         "code": "paper_demo",
         "name": "Demo of Digital Exam System",
         "catelog": "Web Application",
-        "public": false,
-        "url": null,
+        "public": true,
+        "url": "http://simulator.sce.ntnu.edu.tw/paper_demo",
         "tags": ["Angularjs"],
         "plugins": ["bulma"],
         "milestones":[
@@ -234,12 +234,12 @@
             { "time": "2018-02", "event": "production release" }
         ],
         "images": [
-            { "file": "1.png", "title": "paper list" },
-            { "file": "2.png", "title": "playing exam rule audio" },
-            { "file": "3.png", "title": "listening test(choose an image)" },
-            { "file": "4.png", "title": "listening test(choose a text)" },
-            { "file": "5.png", "title": "listening test(question set)" },
-            { "file": "6.png", "title": "reading test(question set)" }
+            { "file": "1.PNG", "title": "paper list" },
+            { "file": "2.PNG", "title": "playing exam rule audio" },
+            { "file": "3.PNG", "title": "listening test(choose an image)" },
+            { "file": "4.PNG", "title": "listening test(choose a text)" },
+            { "file": "5.PNG", "title": "listening test(question set)" },
+            { "file": "6.PNG", "title": "reading test(question set)" }
         ]
     },
     {
@@ -258,16 +258,16 @@
             { "time": "2018-02", "event": "production release" }
         ],
         "images": [
-            { "file": "a1.png", "title": "after staff setting, system could design the schedule autoly" },
-            { "file": "a2.png", "title": "enroll/drop course" },
-            { "file": "a3.png", "title": "absent record" },
-            { "file": "s1.png", "title": "schedule of student" },
-            { "file": "s2.png", "title": "leave request" },
-            { "file": "s3.png", "title": "choose course" },
-            { "file": "t1.png", "title": "teacher's free time" },
-            { "file": "t2.png", "title": "schedule of teacher" },
-            { "file": "t3.png", "title": "scoring" },
-            { "file": "t4.png", "title": "review leave request" }
+            { "file": "a1.PNG", "title": "after staff setting, system could design the schedule autoly" },
+            { "file": "a2.PNG", "title": "enroll/drop course" },
+            { "file": "a3.PNG", "title": "absent record" },
+            { "file": "s1.PNG", "title": "schedule of student" },
+            { "file": "s2.PNG", "title": "leave request" },
+            { "file": "s3.PNG", "title": "choose course" },
+            { "file": "t1.PNG", "title": "teacher's free time" },
+            { "file": "t2.PNG", "title": "schedule of teacher" },
+            { "file": "t3.PNG", "title": "scoring" },
+            { "file": "t4.PNG", "title": "review leave request" }
         ]
     }
 ]

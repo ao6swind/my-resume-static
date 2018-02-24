@@ -224,8 +224,8 @@
         "code": "paper_demo",
         "name": "線上模擬考",
         "catelog": "網頁應用程式",
-        "public": false,
-        "url": null,
+        "public": true,
+        "url": "http://simulator.sce.ntnu.edu.tw/paper_demo",
         "tags": ["Angularjs"],
         "plugins": ["bulma"],
         "milestones":[
@@ -234,12 +234,12 @@
             { "time": "2018-02", "event": "開放民眾模擬測驗" }
         ],
         "images": [
-            { "file": "1.png", "title": "試卷清單" },
-            { "file": "2.png", "title": "試場規則宣讀頁面" },
-            { "file": "3.png", "title": "聽力測驗（圖選）" },
-            { "file": "4.png", "title": "聽力測驗（文選）" },
-            { "file": "5.png", "title": "聽力測驗（題組）" },
-            { "file": "6.png", "title": "閱讀測驗（題組）" }
+            { "file": "1.PNG", "title": "試卷清單" },
+            { "file": "2.PNG", "title": "試場規則宣讀頁面" },
+            { "file": "3.PNG", "title": "聽力測驗（圖選）" },
+            { "file": "4.PNG", "title": "聽力測驗（文選）" },
+            { "file": "5.PNG", "title": "聽力測驗（題組）" },
+            { "file": "6.PNG", "title": "閱讀測驗（題組）" }
         ]
     },
     {
@@ -258,16 +258,16 @@
             { "time": "2018-02", "event": "系統上線" }
         ],
         "images": [
-            { "file": "a1.png", "title": "行政人員可固定特定課程後由系統自動排課" },
-            { "file": "a2.png", "title": "行政加退選" },
-            { "file": "a3.png", "title": "缺曠課登記" },
-            { "file": "s1.png", "title": "學生課表" },
-            { "file": "s2.png", "title": "學生線上請假" },
-            { "file": "s3.png", "title": "學生選課" },
-            { "file": "t1.png", "title": "教師登記可排課時間" },
-            { "file": "t2.png", "title": "教師課表" },
-            { "file": "t3.png", "title": "教師登分" },
-            { "file": "t4.png", "title": "審核請假單" }
+            { "file": "a1.PNG", "title": "行政人員可固定特定課程後由系統自動排課" },
+            { "file": "a2.PNG", "title": "行政加退選" },
+            { "file": "a3.PNG", "title": "缺曠課登記" },
+            { "file": "s1.PNG", "title": "學生課表" },
+            { "file": "s2.PNG", "title": "學生線上請假" },
+            { "file": "s3.PNG", "title": "學生選課" },
+            { "file": "t1.PNG", "title": "教師登記可排課時間" },
+            { "file": "t2.PNG", "title": "教師課表" },
+            { "file": "t3.PNG", "title": "教師登分" },
+            { "file": "t4.PNG", "title": "審核請假單" }
         ]
     }
 ]
