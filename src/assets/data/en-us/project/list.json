@@ -269,5 +269,25 @@
             { "file": "t3.PNG", "title": "scoring" },
             { "file": "t4.PNG", "title": "review leave request" }
         ]
+    },
+    {
+        "code": "most",
+        "name": "MOST seminar web site",
+        "catelog": "Web Application",
+        "public": true,
+        "url": "https://most.tahrd.ntnu.edu.tw/",
+        "tags": ["ASP.NET MVC", "C#", "MSSQL", "Windows server"],
+        "plugins": ["bootstrap", "jquery.mb-comingsoon.js"],
+        "milestones":[
+            { "time": "2018-05-25", "event": "接獲需求" },
+            { "time": "2018-06-06", "event": "需求訪談，假日抽空開發" },
+            { "time": "2018-07-24", "event": "虛擬機器申請完成" },
+            { "time": "2018-07-28", "event": "系統佈署完畢，協助內容上架" }
+        ],
+        "images": [
+            { "file": "1.PNG", "title": "homepage" },
+            { "file": "2.PNG", "title": "pages" },
+            { "file": "3.PNG", "title": "dashboard" }
+        ]
     }
 ]

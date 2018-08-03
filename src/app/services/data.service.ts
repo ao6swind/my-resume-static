@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
-import 'rxjs/add/operator/map';
+import { map, filter, switchMap } from 'rxjs/operators';
 
 @Injectable()
 export class DataService {
@@ -10,15 +10,14 @@ export class DataService {
   }
 
   getText(lang: string, file: string) {
-    return this.http.get('assets/data/' + lang + '/' + file + '.txt').map(res => res.text().replace("\r\n", "<br>").replace("\n", "<br>").replace("\t", "　　"));
+    return this.http.get('assets/data/' + lang + '/' + file + '.txt').pipe(map(res=>res.text().replace("\r\n", "<br>").replace("\n", "<br>").replace("\t", "　　")));
   }
 
   getList(lang: string, file: string) {
-    return this.http.get('assets/data/' + lang + '/' + file + '.json').map(res => res.json());
+    return this.http.get('assets/data/' + lang + '/' + file + '.json').pipe(map(res=>res.json()));
   }
 
   getDetail(lang: string, file: string, id: number) {
-    return this.http.get('assets/data/' + lang + '/' + file  + '.json').map(res => res.json()[id - 1]);
+    return this.http.get('assets/data/' + lang + '/' + file  + '.json').pipe(map(res=>res.json()[id - 1]));
   }
-
 }

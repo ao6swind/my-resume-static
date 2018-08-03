@@ -1,1 +1,0 @@
-We implement a lot of language exam. In the beginin, we have no specification at question setting process. This reason results in my co-workders need to spend time for view. This system limit user to input be formated question

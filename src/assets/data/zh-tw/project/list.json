@@ -269,5 +269,25 @@
             { "file": "t3.PNG", "title": "教師登分" },
             { "file": "t4.PNG", "title": "審核請假單" }
         ]
+    },
+    {
+        "code": "most",
+        "name": "應用科學教育學門成果發表暨研習會報名網站",
+        "catelog": "網頁應用程式",
+        "public": true,
+        "url": "https://most.tahrd.ntnu.edu.tw/",
+        "tags": ["ASP.NET MVC", "C#", "MSSQL", "Windows server"],
+        "plugins": ["bootstrap", "jquery.mb-comingsoon.js"],
+        "milestones":[
+            { "time": "2018-05-25", "event": "接獲需求" },
+            { "time": "2018-06-06", "event": "需求訪談，假日抽空開發" },
+            { "time": "2018-07-24", "event": "虛擬機器申請完成" },
+            { "time": "2018-07-28", "event": "系統佈署完畢，協助內容上架" }
+        ],
+        "images": [
+            { "file": "1.PNG", "title": "網站首頁" },
+            { "file": "2.PNG", "title": "分頁自主上架" },
+            { "file": "3.PNG", "title": "後臺管理" }
+        ]
     }
 ]
