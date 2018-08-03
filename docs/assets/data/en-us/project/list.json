@@ -1,0 +1,293 @@
+[
+    {
+        "code": "stem",
+        "name": "STEM-based Learning System for Collaborative Problem Solving",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["ASP.NET MVC", "C#", "MSSQL", "Windows server"],
+        "plugins": ["jquery", "bootstrap", "ClosedXML"],
+        "milestones":[
+            { "time": "2014-06", "event": "project started, interview for users needs" },
+            { "time": "2014-07", "event": "beta release" },
+            { "time": "2014-09", "event": "experiment start, building others json scenario" },
+            { "time": "2015-10", "event": "Dr. Lin finish presentation, project closing." }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "Homepage, 8 scenarios" },
+            { "file": "2.jpg", "title": "character dialogue" },
+            { "file": "3.jpg", "title": "choosing some right tools and draging to basket" },
+            { "file": "4.jpg", "title": "choosing the best diagram from options" },
+            { "file": "5.jpg", "title": "choosing the best answer from options" },
+            { "file": "6.jpg", "title": "table information" },
+            { "file": "7.jpg", "title": "image information" },
+            { "file": "8.jpg", "title": "questions" }
+        ]
+    },
+    {
+        "code": "yoyohakka",
+        "name": "YoYoHakka Website",
+        "catelog": "Web Application",
+        "public": true,
+        "url": "http://abst.sce.ntnu.edu.tw/yoyohakka",
+        "tags": ["PHP", "MySQL", "RWD", "SCSS"],
+        "plugins": ["bootstrap-sass", "ckeditor", "google distance matrix", "jQuery TWzipcode", "typeahead.js"],
+        "milestones":[
+            { "time": "2014-11", "event": "design scheduled session system and adjust layout with bootstrap" },
+            { "time": "2015-01", "event": "2015 activity website online" },
+            { "time": "2015-09", "event": "system rebuilding, development database query module, implement scss and bootstrap-sass" },
+            { "time": "2016-01", "event": "2016 activity website online" },
+            { "time": "2016-12", "event": "hand over this project to new co-worker" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "2015 activity website" },
+            { "file": "2.jpg", "title": "regist form" },
+            { "file": "3.jpg", "title": "the number of participants statistics" }
+        ]
+    },
+    {
+        "code": "eplace",
+        "name": "Place Management System",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["PHP", "MySQL", "RWD", "SCSS"],
+        "plugins": ["bootstrap-sass", "fullcalendar", "PHPOffice"],
+        "milestones":[
+            { "time": "before 2015", "event": "project pending" },
+            { "time": "2015-02", "event": "project start" },
+            { "time": "2015-04", "event": "release" },
+            { "time": "2016-12", "event": "transfer data from old system by new co-worker" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "showing be occupied rooms whit calendar" }
+        ]
+    },
+    {
+        "code": "sce",
+        "name": "NTNU SCE Website",
+        "catelog": "Web Application",
+        "public": true,
+        "url": "http://www.sce.ntnu.edu.tw/home",
+        "tags": ["PHP", "MySQL", "RWD", "SCSS"],
+        "plugins": ["bootstrap-sass", "ckeditor", "Jcrop", "jQuery tinyMap"],
+        "milestones":[
+            { "time": "2015-05", "event": "project started, interview for users needs" },
+            { "time": "2015-08", "event": "version 1 online(db query module is base on function)" },
+            { "time": "2016-09", "event": "version 2 online(db query module is base on class, optimization user interface)" },
+            { "time": "2016-10", "event": "builing content management for NTNU hostel" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "homepage, important event in banner" },
+            { "file": "2.jpg", "title": "course series list" },
+            { "file": "3.jpg", "title": "course list in series" },
+            { "file": "4.jpg", "title": "course information" },
+            { "file": "5.jpg", "title": "place list" },
+            { "file": "6.jpg", "title": "place specification" }
+        ]
+    },
+    {
+        "code": "onlinemtc",
+        "name": "OnlineMTC Website",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["PHP", "MySQL", "RWD", "SCSS"],
+        "plugins": ["bootstrap-sass", "Jcrop", "PHPOffice"],
+        "milestones":[
+            { "time": "2015-11", "event": "project started" },
+            { "time": "2015-12", "event": "build website" },
+            { "time": "2016-01", "event": "website online and registion started" },
+            { "time": "2016-02", "event": "purchase synchronous/asynchronous teaching system" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "homepage" },
+            { "file": "2.jpg", "title": "regisition form" },
+            { "file": "3.jpg", "title": "payment and information" }
+        ]
+    },
+    {
+        "code": "exam_propose",
+        "name": "Setting Question System",
+        "catelog": "Desktop Application",
+        "public": false,
+        "url": null,
+        "tags": [ "WPF", "C#" ],
+        "plugins": [ "Ribbon", "Json.Net", "ClosedXML", "VS2017 Installer Extension" ],
+        "milestones":[
+            { "time": "2016-03", "event": "project started" },
+            { "time": "2016-05", "event": "project closing" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "choose language" },
+            { "file": "2.jpg", "title": "funciton menu" },
+            { "file": "3.jpg", "title": "user interface" },
+            { "file": "4.jpg", "title": "collapse basic settings panel make layout larger" },
+            { "file": "5.jpg", "title": "data validation before export" },
+            { "file": "6.jpg", "title": "export to excel" },
+            { "file": "7.jpg", "title": "result" }
+        ]
+    },
+    {
+        "code": "exam_standard",
+        "name": "Setting Level System",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["PHP", "MySQL", "RWD", "SCSS"],
+        "plugins": ["bootstrap-sass", "jquery"],
+        "milestones":[
+            { "time": "2016-06", "event": "project started" },
+            { "time": "2016-08", "event": "project closing" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "listening exam level setting interface" },
+            { "file": "2.jpg", "title": "speaking exam level setting interface" },
+            { "file": "3.jpg", "title": "reading exam level setting interface" },
+            { "file": "4.jpg", "title": "writing exam level setting interface" },
+            { "file": "5.jpg", "title": "meeting host control panel" },
+            { "file": "6.jpg", "title": "result statistics(in view of mamebers)" },
+            { "file": "7.jpg", "title": "result statistics(in view of questions)" },
+            { "file": "8.jpg", "title": "compare results" }
+        ]
+    },
+    {
+        "code": "paper_factory",
+        "name": "Paper Factory System",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["PHP", "MySQL", "RWD", "SCSS"],
+        "plugins": ["bootstrap-sass", "Jcrop"],
+        "milestones":[
+            { "time": "2016-09", "event": "project started with digital exam system" },
+            { "time": "2016-10", "event": "beta release and system acceptance by preexam" },
+            { "time": "2017-02", "event": "version 1 release" },
+            { "time": "2017-12", "event": "modify system due to semi-automatic digital exam system" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "paper list" },
+            { "file": "2.jpg", "title": "preview" }
+        ]
+    },
+    {
+        "code": "exam_system",
+        "name": "Digital Exam System",
+        "catelog": "Desktop Application",
+        "public": false,
+        "url": null,
+        "tags": [ "WPF", "C#", "Socket" ],
+        "plugins": ["Ribbon", "Json.Net", "Ftp.Net", "Osinfo", "Naudio", "VS2017 Installer Extension"],
+        "milestones":[
+            { "time": "2016-09", "event": "project started with paper factory system" },
+            { "time": "2016-10", "event": "beta release and system acceptance by preexam" },
+            { "time": "2017-02", "event": "version 1 release" },
+            { "time": "2017-12", "event": "modify to semi-automatic" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "in views of supervisor" },
+            { "file": "2.jpg", "title": "in views of examinee" },
+            { "file": "3.jpg", "title": "system reading rule of examsite" },
+            { "file": "4.jpg", "title": "listening examing(options are images)" },
+            { "file": "5.jpg", "title": "listening examing(options are text)" },
+            { "file": "6.jpg", "title": "speaking examing" },
+            { "file": "7.jpg", "title": "export answers" }
+        ]
+    },
+    {
+        "code": "paper_correcter",
+        "name": "Scroing System",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["PHP", "MySQL", "RWD", "SCSS", "canvas"],
+        "plugins": ["bootstrap-sass", "Jcrop"],
+        "milestones":[
+            { "time": "2017-03", "event": "project started" },
+            { "time": "2017-05", "event": "version 1 release" },
+            { "time": "2017-06", "event": "performance optimization" }
+        ],
+        "images": [
+            { "file": "1.jpg", "title": "pre-scoring meeting host control panel" },
+            { "file": "2.jpg", "title": "scoring member pre-scoring UI（speaking exam）" },
+            { "file": "3.jpg", "title": "scoring member pre-scoring result UI（speaking exam）" },
+            { "file": "4.jpg", "title": "scoring member pre-scoring result UI（writing exam）" },
+            { "file": "5.jpg", "title": "list of answers that scoring memeber hold" },
+            { "file": "6.jpg", "title": "scoring UI（speaking exam）" },
+            { "file": "7.jpg", "title": "scoring UI（writing exam））" },
+            { "file": "8.jpg", "title": "distribute answer panel" },
+            { "file": "9.jpg", "title": "speaking answer list" },
+            { "file": "10.jpg", "title": "scoring progress" }
+        ]
+    },
+    {
+        "code": "paper_demo",
+        "name": "Demo of Digital Exam System",
+        "catelog": "Web Application",
+        "public": true,
+        "url": "http://simulator.sce.ntnu.edu.tw/paper_demo",
+        "tags": ["Angularjs"],
+        "plugins": ["bulma"],
+        "milestones":[
+            { "time": "2017-09", "event": "project started" },
+            { "time": "2017-11", "event": "beta release" },
+            { "time": "2018-02", "event": "production release" }
+        ],
+        "images": [
+            { "file": "1.PNG", "title": "paper list" },
+            { "file": "2.PNG", "title": "playing exam rule audio" },
+            { "file": "3.PNG", "title": "listening test(choose an image)" },
+            { "file": "4.PNG", "title": "listening test(choose a text)" },
+            { "file": "5.PNG", "title": "listening test(question set)" },
+            { "file": "6.PNG", "title": "reading test(question set)" }
+        ]
+    },
+    {
+        "code": "linkou",
+        "name": "NUPS Education System",
+        "catelog": "Web Application",
+        "public": false,
+        "url": null,
+        "tags": ["Laravel"],
+        "plugins": ["bootstrap", "sweetalert2"],
+        "milestones":[
+            { "time": "2017-04", "event": "got requirement" },
+            { "time": "2017-05", "event": "require interview" },
+            { "time": "2017-07", "event": "pass this project to another co-worker" },
+            { "time": "2018-01", "event": "the coworker quit, and I continue finish this project" },
+            { "time": "2018-02", "event": "production release" }
+        ],
+        "images": [
+            { "file": "a1.PNG", "title": "after staff setting, system could design the schedule autoly" },
+            { "file": "a2.PNG", "title": "enroll/drop course" },
+            { "file": "a3.PNG", "title": "absent record" },
+            { "file": "s1.PNG", "title": "schedule of student" },
+            { "file": "s2.PNG", "title": "leave request" },
+            { "file": "s3.PNG", "title": "choose course" },
+            { "file": "t1.PNG", "title": "teacher's free time" },
+            { "file": "t2.PNG", "title": "schedule of teacher" },
+            { "file": "t3.PNG", "title": "scoring" },
+            { "file": "t4.PNG", "title": "review leave request" }
+        ]
+    },
+    {
+        "code": "most",
+        "name": "MOST seminar web site",
+        "catelog": "Web Application",
+        "public": true,
+        "url": "https://most.tahrd.ntnu.edu.tw/",
+        "tags": ["ASP.NET MVC", "C#", "MSSQL", "Windows server"],
+        "plugins": ["bootstrap", "jquery.mb-comingsoon.js"],
+        "milestones":[
+            { "time": "2018-05-25", "event": "接獲需求" },
+            { "time": "2018-06-06", "event": "需求訪談，假日抽空開發" },
+            { "time": "2018-07-24", "event": "虛擬機器申請完成" },
+            { "time": "2018-07-28", "event": "系統佈署完畢，協助內容上架" }
+        ],
+        "images": [
+            { "file": "1.PNG", "title": "homepage" },
+            { "file": "2.PNG", "title": "pages" },
+            { "file": "3.PNG", "title": "dashboard" }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+{
+    "code": "專案代碼,同時也是圖片資料夾名稱",
+    "name": "專案名稱",
+    "catelog": "專案類型",
+    "is_enable": true,
+    "url": "專案網址",
+    "description": "專案描述",
+    "tags": ["相關標籤1", "相關標籤2"],
+    "plugin": ["套件1", "套件2"],
+    "milestones":[
+        { "time": "2017-12-24", "event": "平安夜苦命趕工中" },
+        { "time": "2017-12-25", "event": "聖誕節上線" }
+    ],
+    "images": [
+        { "file": "img001.jpg", "title": "圖片標題", "description": "圖片的描述" },
+        { "file": "img002.jpg", "title": "圖片標題", "description": "圖片的描述" },
+        { "file": "img003.jpg", "title": "圖片標題", "description": "圖片的描述" }
+    ]
+}

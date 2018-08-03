@@ -1,0 +1,18 @@
+[
+    {
+        "school": "Nation Taiwan Normal University",
+        "degree": "Bachelor",
+        "department": "Technology Application and Humen Resource Development",
+        "major": "Computer Application",
+        "from": "2007",
+        "end": "2011"
+    },
+    {
+        "school": "Nation Taiwan Normal University",
+        "degree": "Master",
+        "department": "Technology Application and Humen Resource Development",
+        "major": "Network Education",
+        "from": "2011",
+        "end": "2013"
+    }
+]

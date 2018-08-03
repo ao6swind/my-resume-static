@@ -1,0 +1,1 @@
+For decreasing variable about unfamiliar user interface, we designed a digital exam demo system by Angularjs(version 4).
