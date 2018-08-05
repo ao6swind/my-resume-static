@@ -1,0 +1,8 @@
+.notification a:not(.button) {
+  text-decoration: none;
+}
+
+.pnl-menu {
+  background-color: #209cee;
+}
+/*# sourceMappingURL=index.component.css.map */

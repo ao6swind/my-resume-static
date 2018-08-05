@@ -1,6 +1,8 @@
 @import "/bulma-modify/initial-variables";
 @import "~bulma/bulma";
-@import "~bulma-extensions/extensions";
+@import "~bulma-extensions/bulma-carousel/src/sass/index";
+@import "~bulma-extensions/bulma-timeline/src/sass/index";
+@import "~bulma-extensions/bulma-quickview/src/sass/index";
 html,body{
     background-color: hsl(217, 71%, 53%);
     font-family: Microsoft YaHei;

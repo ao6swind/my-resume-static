@@ -1,0 +1,16 @@
+table {
+  background-color: transparent;
+}
+
+ul {
+  clear: both;
+}
+
+ul li {
+  float: left;
+}
+
+ul li:not(:first-child) {
+  margin-left: 5px;
+}
+/*# sourceMappingURL=introduction.component.css.map */

@@ -1,0 +1,29 @@
+.notification a:not(.button) {
+  text-decoration: none;
+}
+
+.navbar-start {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.navbar-menu {
+  padding: 0;
+}
+
+.menu {
+  background-color: #209cee;
+  color: white;
+  width: 100%;
+}
+
+.menu-label {
+  color: white;
+}
+
+.menu-list a:hover {
+  background-color: #8ad0ff;
+  color: #4A4A4A;
+}
+/*# sourceMappingURL=menu.component.css.map */

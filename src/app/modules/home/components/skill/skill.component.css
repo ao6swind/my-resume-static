@@ -1,0 +1,21 @@
+.notification a:not(.button) {
+  text-decoration: none;
+}
+
+.pnl-tab ul li {
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-right: 2px solid #dbdbdb;
+}
+
+.pnl-tab ul li.is-active {
+  border-right: 2px solid #209cee;
+  background-color: rgba(32, 156, 238, 0.2);
+}
+
+progress {
+  margin-bottom: 0.5rem;
+}
+/*# sourceMappingURL=skill.component.css.map */

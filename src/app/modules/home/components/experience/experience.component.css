@@ -1,0 +1,15 @@
+.quickview {
+  color: white;
+}
+
+.quickview .quickview-header {
+  background-color: #209cee;
+  color: white;
+}
+
+.quickview .quickview-body {
+  background-color: #8ad0ff;
+  color: #4A4A4A;
+  padding: 1rem;
+}
+/*# sourceMappingURL=experience.component.css.map */

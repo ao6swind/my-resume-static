@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,MAAM,EAAE,CAAC;CACZ",
+    "sources": [
+        "certification.component.scss"
+    ],
+    "names": [],
+    "file": "certification.component.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,KAAK;CAUf;;AAXD,AAEI,UAFM,CAEN,iBAAiB,CAAA;EACb,gBAAgB,EAAE,OAAkB;EACpC,KAAK,EAAE,KAAK;CACf;;AALL,AAMI,UANM,CAMN,eAAe,CAAA;EACX,gBAAgB,EAAE,OAAmB;EACrC,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "experience.component.scss"
+    ],
+    "names": [],
+    "file": "experience.component.css"
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.txt-url {
+  margin-top: 1rem;
+}
+
+span::after {
+  content: '：';
+}
+/*# sourceMappingURL=description.component.css.map */

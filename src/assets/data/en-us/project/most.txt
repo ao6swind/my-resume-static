@@ -1,0 +1,2 @@
+　　Honorably, Dr. Lin entrust me with development a simple website. I collected requirement and developed between June and July. Finally, the website officially online in July, 28. 
+　　My company use PHP and XAMPP usually. So, this project is a good opportunity for training develop microsoft solution skill. I choose ASP.NET MVC with MSSQL and build on windows server 2012. Although I don't like PHP, I learn something in the last three years. These skills make me notice more detail on security like HTTP header defence and server setting.
