@@ -1,1 +1,8 @@
-　　My major is education. Due to some occasions, I started learning something about information technology include system management ans software engineering. During my graduate studies, I started learning building website. When I served for country(alternative military service in education), a upperclassman in NTNU asked me that could I help to develop a system. So, I spend my free time to do this project. After I completed alternative military service, the doctor who is my advisor invited me to join his team at NTNU extension school of continuing education. My duties are development and maintain web, desktop application. In 2016, I  am appointed a job which manage projects. In 2017, I am appointed team leader, I am interested in .NET MVC CORE, Angularjs, Xamarin and other APP project.
+　　My major is education. Due to some occasions, I started learning something about information technology include system management ans software engineering. During my graduate studies, I started learning building website. When I served for country(alternative military service in education), a upperclassman in NTNU asked me that could I help to develop a system. So, I spend my free time to do this project. After I completed alternative military service, the doctor who is my advisor invited me to join his team at NTNU extension school of continuing education.
+
+　　．2014 @ Project Assistant
+　　．2015 @ Software Engineer
+　　．2016 @ Software Engineer & Project Management
+　　．2017 @ Software Engineer & Team Leader 
+
+　　My duties are development and maintain web, desktop application. Although I love dot net solution more than LAMP solution, our system must be developed by PHP. Due to this reason, I studied a lot of skill about PHP. Now, we try to develop system with Laravel and VUE. As to me, I'm interested in ASP.NET core、Angular or other APP project.
